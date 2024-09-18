@@ -1200,14 +1200,21 @@ footer {
   }
 
   footer {
-    background: url(images/land.png) 50% 100%/ 100% 80%,
-      url(images/moon.png) 50% 100% / 35% 60%,
+    position: relative;
+    top: -100px; /* adjust the value to your liking */
+    height: 50vh;
+    background: url("images/land.png") 50% 100%/ 100% 100%,
+      url("images/moon.png") 50% 100% / auto,
       radial-gradient(
         80% 100% at 50% 70%,
         rgba(255, 255, 255, 0.199) 10%,
         transparent 80%
       );
     background-repeat: no-repeat;
+    box-shadow: 0 0 150px #000 inset;
+    display: flex;
+    justify-content: center;
+    align-items: end;
   }
 
   .footer-content {
