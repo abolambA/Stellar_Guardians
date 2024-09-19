@@ -1815,8 +1815,8 @@ margin-right: 25px;
 .contact-section-title {
   font-family: 'Arial', sans-serif;
   font-size: 28px;
-  color: #f39c12;
-  border-bottom: 2px solid #2c3e50;
+  color: #2c3e50;
+  border-bottom: 2px solid #f39c12;
   display: inline-block;
   padding-bottom: 10px;
   margin-bottom: 20px;
@@ -1890,6 +1890,18 @@ margin-right: 25px;
 
 .contact-phone:before {
   content: "\f095"; /* Font Awesome phone icon */
+}
+
+.copyright-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #7f8c8d;
+  text-align: center; /* Center the copyright text */
+}
+
+.copyright-text p {
+  margin: 0;
+  font-weight: bold;
 }
 
 /* Mobile responsiveness */
