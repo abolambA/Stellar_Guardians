@@ -1801,3 +1801,130 @@ footer {
 .planet-metric-nav {
 margin-right: 25px;
 }
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto; /* Center the container */
+  margin-bottom: 40px;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.contact-section-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  color: #f39c12;
+  border-bottom: 2px solid #2c3e50;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center; /* Center the title */
+}
+
+.contact-profile {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%; /* Full width inside the container */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  text-align: center; /* Center the text content */
+  position: relative;
+}
+
+.contact-details {
+  font-size: 16px;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #f39c12;
+  font-weight: bold;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+  color: #e67e22;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center; /* Centers the icons */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-media-icons a {
+  color: #f39c12;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-media-icons a:hover {
+  color: #e67e22;
+}
+
+.contact-name,
+.contact-email,
+.contact-phone {
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+
+.contact-name:before,
+.contact-email:before,
+.contact-phone:before {
+  content: "\f007"; /* Font Awesome user icon */
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.contact-email:before {
+  content: "\f0e0"; /* Font Awesome envelope icon */
+}
+
+.contact-phone:before {
+  content: "\f095"; /* Font Awesome phone icon */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .contact-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+
+.ha-section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  background: url("images/space2.jpg") no-repeat;
+}
+
+.ha-section-bottom {
+  position: relative;
+  top: -300px; /* adjust the value to your liking */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: -300px;
+}
