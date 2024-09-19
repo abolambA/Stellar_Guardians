@@ -66,7 +66,6 @@ h4 {
   flex-direction: row;
   height: 100vh;
   justify-content: center;
-  gap: 20px;
   margin-bottom: 20px;
   flex-wrap: wrap;
 }
@@ -1775,7 +1774,7 @@ footer {
   font-size: 32px;
   color: #ffcc00;
   padding: 10px 20px;
-  padding-top: 70px;
+  padding-top: 200px;
   margin-bottom: 20px;
 }
 
