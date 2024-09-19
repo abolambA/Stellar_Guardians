@@ -68,6 +68,7 @@ h4 {
   justify-content: center;
   margin-bottom: 20px;
   flex-wrap: wrap;
+  background: url("images/space2.jpg") no-repeat;
 }
 
 /* header */
@@ -103,6 +104,8 @@ nav {
   display: grid;
   grid-template: 100% / repeat(4, 1fr);
   place-items: end;
+  align-items: center;
+  margin-left: -700px;
 }
 
 nav a {
@@ -1291,7 +1294,7 @@ footer {
   }
 
   .nav-list {
-    display: none;
+    display: flex;
   }
 
   nav {
@@ -1793,4 +1796,8 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 20px
+}
+
+.planet-metric-nav {
+margin-right: 25px;
 }
