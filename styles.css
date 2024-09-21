@@ -1896,6 +1896,9 @@ margin-right: 25px;
     flex-wrap: wrap;
     margin-top: 450px;
   }
+  .planet-metric-nav {
+    margin-right: 0px;
+    }
   
 }
 
