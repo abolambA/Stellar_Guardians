@@ -1283,6 +1283,43 @@ footer {
     width: 111%;
     height: 80%;
   }
+  .contact-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .section-title {
+    font-size: 32px;
+    color: #ffcc00;
+    padding: 10px 20px;
+    padding-top: 200px;
+    background: url("images/space2.jpg") no-repeat;
+    margin-top: 400px;
+    margin-bottom: 50px;
+  }
+  
+  .fact-image {
+    position: relative;
+    width: 100%; /* Ensures image fills the container */
+    height: 150%; /* Maintains aspect ratio */
+  }
+  .ha-section-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 450px;
+  }
+  .planet-metric-nav {
+    margin-right: 0px;
+    }
 }
 
 @media (max-width: 424px) {
@@ -1586,6 +1623,43 @@ footer {
     width: 83%;
     height: 97%;
   }
+  .contact-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .section-title {
+    font-size: 32px;
+    color: #ffcc00;
+    padding: 10px 20px;
+    padding-top: 200px;
+    background: url("images/space2.jpg") no-repeat;
+    margin-top: 400px;
+    margin-bottom: 50px;
+  }
+  
+  .fact-image {
+    position: relative;
+    width: 100%; /* Ensures image fills the container */
+    height: 150%; /* Maintains aspect ratio */
+  }
+  .ha-section-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 450px;
+  }
+  .planet-metric-nav {
+    margin-right: 0px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 376px) {
@@ -1653,6 +1727,43 @@ footer {
     width: 95%;
     height: 32vh;
   }
+  .contact-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .section-title {
+    font-size: 32px;
+    color: #ffcc00;
+    padding: 10px 20px;
+    padding-top: 200px;
+    background: url("images/space2.jpg") no-repeat;
+    margin-top: 400px;
+    margin-bottom: 50px;
+  }
+  
+  .fact-image {
+    position: relative;
+    width: 100%; /* Ensures image fills the container */
+    height: 150%; /* Maintains aspect ratio */
+  }
+  .ha-section-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 450px;
+  }
+  .planet-metric-nav {
+    margin-right: 0px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -1697,6 +1808,44 @@ footer {
     width: 95%;
     height: 30vh;
   }
+  .contact-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .section-title {
+    font-size: 32px;
+    color: #ffcc00;
+    padding: 10px 20px;
+    padding-top: 200px;
+    background: url("images/space2.jpg") no-repeat;
+    margin-top: 400px;
+    margin-bottom: 50px;
+  }
+  
+  .fact-image {
+    position: relative;
+    width: 100%; /* Ensures image fills the container */
+    height: 150%; /* Maintains aspect ratio */
+  }
+  .ha-section-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 450px;
+  }
+  .planet-metric-nav {
+    margin-right: 0px;
+    }
+
 }
 
 
@@ -1859,49 +2008,6 @@ margin-right: 25px;
   margin: 0;
   font-weight: bold;
 }
-
-/* Mobile responsiveness */
-@media screen and (max-width: 400px) {
-  .contact-profile {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .social-media-icons {
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .section-title {
-    font-size: 32px;
-    color: #ffcc00;
-    padding: 10px 20px;
-    padding-top: 200px;
-    background: url("images/space2.jpg") no-repeat;
-    margin-top: 400px;
-    margin-bottom: 50px;
-  }
-  
-  .fact-image {
-    position: relative;
-    width: 100%; /* Ensures image fills the container */
-    height: 150%; /* Maintains aspect ratio */
-  }
-  .ha-section-bottom {
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    height: 100vh;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 450px;
-  }
-  .planet-metric-nav {
-    margin-right: 0px;
-    }
-  
-}
-
 
 .ha-section {
   display: flex;
